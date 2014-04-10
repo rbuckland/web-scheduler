@@ -31,6 +31,12 @@ http://localhost:9000/api/cron/add/Test/15%200%2F2%20*%20*%20*%20%3F/groovy/scri
 ### Show the Current Crons
 ```
 http://localhost:9000/api/cron/jobs
+
+Vector(
+ScheduledJobDetails(DEFAULT,Test/groovy_e93621bb-3422-4766-966a-152da05c44e3,Some(Fri Apr 11 00:34:15 BST 2014),Actor[akka://application/user/executionDispatcher#-152758938],GroovyExecute(Test,scripts/test.groovy)), 
+ScheduledJobDetails(DEFAULT,Test/scala_1a505bc0-7901-42c0-b083-4b1a4962336b,Some(Fri Apr 11 00:34:01 BST 2014),Actor[akka://application/user/executionDispatcher#-152758938],ScalaExecute(Test,scripts/test.scala))
+)
+
 ```
 
 ### What Can I do With this ?
